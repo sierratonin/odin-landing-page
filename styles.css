@@ -116,3 +116,42 @@ nav {
     margin-top: 0px;
     padding-right: 90px;
 }
+.call-to-action{
+    background-color: #F9FAF8;
+    padding: 100px 200px;
+}
+.CTA-content{
+    background-color:#3882F6;
+    border-radius: 5px;
+    margin: auto;
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.CTA-button{
+    display: flex;
+    align-items: center;
+
+}
+.CTA-content button{
+    background-color:#3882F6;
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 5px 30px; 
+    font-size: 18px;
+}
+.CTA-text h4{
+    color:#F9FAF8;
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+.CTA-text p{
+    color:#F9FAF8;
+    margin-top: 0px;
+}
+
