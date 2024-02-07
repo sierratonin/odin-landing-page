@@ -25,6 +25,7 @@ nav {
     color: #E5E7EB;
     font-size: 18px;
     margin: 15px;
+    cursor: pointer;
 }
 .hero p {
     color: #E5E7EB;
@@ -60,6 +61,7 @@ nav {
     text-align: center;
     border-radius: 10px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .content-section{
@@ -144,6 +146,7 @@ nav {
     text-align: center;
     padding: 5px 30px; 
     font-size: 18px;
+    cursor: pointer;
 }
 .CTA-text h4{
     color:#F9FAF8;
@@ -153,5 +156,12 @@ nav {
 .CTA-text p{
     color:#F9FAF8;
     margin-top: 0px;
+}
+
+footer {
+    background-color: #1F2937;
+    color:#E5E7EB;
+    text-align: center;
+    padding: 10px;
 }
 
