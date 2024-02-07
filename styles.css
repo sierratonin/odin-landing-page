@@ -86,9 +86,14 @@ nav {
     display: block;
     margin: auto;
     border-radius: 20px;
-    
+    border: 5px;
+    border-style: solid;
+    border-color:#3882F6;
 }
 .CTA-content p{
+    margin-top: 10px;
     text-align: center;
     max-width: 200px;
+    color: #1F2937;
+    font-size: 18px;
 }
