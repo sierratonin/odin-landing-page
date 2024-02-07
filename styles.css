@@ -63,8 +63,8 @@ nav {
 }
 
 .call-to-action{
-    background-color: #E5E7EB;
-    padding: 50px 200px 150px 200px;
+    background-color: #F9FAF8;
+    padding: 50px 200px 100px 200px;
 }
 .CTA-title{
     margin-top: 0;
@@ -96,4 +96,23 @@ nav {
     max-width: 200px;
     color: #1F2937;
     font-size: 18px;
+}
+.quote-section{
+    background-color: #E5E7EB;
+    padding: 100px 350px;
+}
+.quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 10px;
+}
+.author{
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: end;
+    margin-top: 0px;
+    padding-right: 90px;
 }
