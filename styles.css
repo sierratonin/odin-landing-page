@@ -41,7 +41,7 @@ nav {
     background-color:#1F2937;
     display: flex;
     flex-direction: row;
-    padding: 200px;
+    padding: 150px 200px;
     gap: 50px;
 }
 .header-img{
@@ -60,4 +60,35 @@ nav {
     text-align: center;
     border-radius: 10px;
     font-weight: bold;
+}
+
+.call-to-action{
+    background-color: #E5E7EB;
+    padding: 50px 200px 150px 200px;
+}
+.CTA-title{
+    margin-top: 0;
+    font-size: 26px;
+    font-weight: extra bold;
+    color:#1F2937;
+    text-align: center;
+}
+.CTA-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px 100px;
+}
+.CTA-img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+.CTA-content p{
+    text-align: center;
+    max-width: 200px;
 }
