@@ -1,0 +1,28 @@
+@font-face { font-family: Roboto; src: url('Roboto-Regular.ttf'); } 
+@font-face { font-family: Roboto; font-weight: bold; src: url('Roboto-Bold.ttf');}
+*{
+    font-family: Roboto, sans-serif;
+}
+body {
+    margin: 0; 
+}
+nav {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    display: inline-block;
+    margin-right: auto;
+    margin: 10px auto 150px 10px;
+}
+.header-link {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 10px 10px 150px 10px;
+}
