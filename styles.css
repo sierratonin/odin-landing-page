@@ -62,24 +62,24 @@ nav {
     font-weight: bold;
 }
 
-.call-to-action{
+.content-section{
     background-color: #F9FAF8;
     padding: 50px 200px 100px 200px;
 }
-.CTA-title{
+.content-title{
     margin-top: 0;
     font-size: 26px;
     font-weight: extra bold;
     color:#1F2937;
     text-align: center;
 }
-.CTA-content{
+.content-content{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding:20px 100px;
 }
-.CTA-img{
+.content-img{
     height: 200px;
     width: 200px;
     object-fit: cover;
@@ -90,7 +90,7 @@ nav {
     border-style: solid;
     border-color:#3882F6;
 }
-.CTA-content p{
+.content-content p{
     margin-top: 10px;
     text-align: center;
     max-width: 200px;
