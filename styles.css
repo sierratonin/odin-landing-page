@@ -19,10 +19,45 @@ nav {
     font-size: 24px;
     display: inline-block;
     margin-right: auto;
-    margin: 10px auto 150px 10px;
+    margin: 10px auto 10px 10px;
 }
-.header-link {
+.header-link{
     color: #E5E7EB;
     font-size: 18px;
-    margin: 10px 10px 150px 10px;
+    margin: 15px;
+}
+.hero p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: 0px;
+}
+.main-text {
+    font-weight: extra-bold;
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: 0px;
+}
+.hero{
+    background-color:#1F2937;
+    display: flex;
+    flex-direction: row;
+    padding: 200px;
+    gap: 50px;
+}
+.header-img{
+    height: 300px;
+    width: 800px;
+    object-fit: cover;
+    flex-basis: 100%;
+}
+.button{
+    background-color: #3882F6;
+    color:#E5E7EB;
+    border: none;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
 }
