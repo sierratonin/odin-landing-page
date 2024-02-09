@@ -50,6 +50,7 @@ nav {
     width: 800px;
     object-fit: cover;
     flex-basis: 100%;
+    border-radius: 25px;
 }
 .button{
     background-color: #A9B388;
@@ -63,7 +64,6 @@ nav {
     font-weight: bold;
     cursor: pointer;
 }
-
 .content-section{
     background-color: #F9FAF8;
     padding: 50px 200px 100px 200px;
@@ -91,6 +91,10 @@ nav {
     border: 5px;
     border-style: solid;
     border-color:#A9B388;
+    transition: all .2s ease-in-out;
+}
+.content-img:hover{
+    transform: scale(1.1);
 }
 .content-content p{
     margin-top: 10px;
@@ -102,6 +106,7 @@ nav {
 .quote-section{
     background-color: #E5E7EB;
     padding: 100px 350px;
+    
 }
 .quote{
     font-size: 36px;
@@ -130,6 +135,10 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    transition: all .2s ease-in-out;
+}
+.CTA-content:hover{
+    transform: scale(1.1);
 }
 .CTA-button{
     display: flex;
@@ -157,7 +166,9 @@ nav {
     color:#F9FAF8;
     margin-top: 0px;
 }
-
+button:hover{
+    background-color: gray;
+}
 footer {
     background-color: #1F2937;
     color:#E5E7EB;
